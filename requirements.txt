@@ -1,0 +1,32 @@
+# FastAPI + Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+
+# Slack
+slack-bolt>=1.22.0
+slack-sdk>=3.34.0
+aiohttp>=3.9.0
+
+# Database
+sqlalchemy[asyncio]>=2.0.36
+asyncpg>=0.30.0
+alembic>=1.14.0
+pgvector>=0.3.6
+
+# LLM - OpenAI only for MVP
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.3.0
+openai>=1.60.0
+
+# Config + Utilities
+python-dotenv>=1.0.1
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+httpx>=0.28.0
+PyMuPDF>=1.24.0
+python-docx>=1.1.0
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.25.0
